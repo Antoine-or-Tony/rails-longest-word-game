@@ -1,0 +1,10 @@
+<h1>Your score is:
+@array_played</h1>
+
+<%= @played.split(", ") %>
+
+
+<h2>you played: <%= @played %></h2>
+<h2>the proposal was: <%= @proposal %></h2>
+
+<h2><%= link_to "Play again", new_path %></h2>
